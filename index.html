@@ -3,30 +3,31 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Animated Card</title>
+  <title>Custom Rules Advocate</title>
   <style>
     body {
       margin: 0;
       height: 100vh;
+      background: #0d0d0d;
       display: flex;
       justify-content: center;
       align-items: center;
-      background: linear-gradient(135deg, #e0e0e0, #ffffff);
     }
 
     .card {
-      width: 300px;
-      height: 400px;
+      width: 320px;
+      height: 480px;
       border-radius: 20px;
       overflow: hidden;
-      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+      background: #1a1a1a;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
       transition: transform 0.4s ease, box-shadow 0.4s ease;
       cursor: pointer;
     }
 
     .card:hover {
       transform: scale(1.05);
-      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
     }
 
     .card img {
@@ -39,7 +40,7 @@
 </head>
 <body>
   <div class="card">
-    <img src="https://source.unsplash.com/300x400/?nature,water" alt="Animated Card Image">
+    <img src="card.png">
   </div>
 </body>
 </html>
